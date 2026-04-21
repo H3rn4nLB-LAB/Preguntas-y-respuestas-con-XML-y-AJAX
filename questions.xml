@@ -161,7 +161,7 @@
    <question id = "15">
     <wording>Which mechanic was introduced in the seventh generation?</wording>
     <choices>
-      <choice correct ="no">Mega Evolution/choice>
+      <choice correct ="no">Mega Evolution</choice>
       <choice correct ="no">Terastallization</choice>
       <choice correct ="no">Dynamax and Gigamax</choice>
       <choice correct ="yes">Z-Moves</choice>
