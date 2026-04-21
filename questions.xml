@@ -106,10 +106,10 @@
   <question id = "10">
     <wording>What are the types of Alolan Marowak?</wording>
     <choices>
-      <choice correct ="no">Tierra y Agua</choice>
-      <choice correct ="no">Planta y Tierra</choice>
-      <choice correct ="yes">Fuego y Fantasma</choice>
-      <choice correct ="no">Tierra y Roca</choice>
+      <choice correct ="no">Ground and Water</choice>
+      <choice correct ="no">Grass and Ground</choice>
+      <choice correct ="yes">Fire and Ghost</choice>
+      <choice correct ="no">Ground and Rock</choice>
 
     </choices>
   </question>
@@ -193,7 +193,7 @@
 
 
    <question id = "18">
-    <wording>?</wording>
+    <wording>Which ability prevents recoil damage?</wording>
     <choices>
       <choice correct ="no">Drought</choice>
       <choice correct ="yes">Rock Head</choice>
