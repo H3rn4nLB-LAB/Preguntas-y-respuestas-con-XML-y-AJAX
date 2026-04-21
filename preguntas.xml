@@ -148,16 +148,83 @@
   </question>
 
   <question id = "14">
-    <wording>¿?</wording>
+    <wording>¿Cuál de estos fósiles Pokemon capturó Ash en el anime?</wording>
     <choices>
-      <choice correct ="yes">Bulbasaur</choice>
-      <choice correct ="no">Charmander</choice>
-      <choice correct ="no">Squirtle</choice>
-      <choice correct ="no">Pikachu</choice>
+      <choice correct ="yes">Dracovish</choice>
+      <choice correct ="no">Kabutops</choice>
+      <choice correct ="no">Rampardos</choice>
+      <choice correct ="no">Tyrunt</choice>
+
+    </choices>
+  </question>
+
+   <question id = "15">
+    <wording>¿Qué mecánica se introdujo en la séptima generación?</wording>
+    <choices>
+      <choice correct ="no">Megaevolución</choice>
+      <choice correct ="no">Teracristalización</choice>
+      <choice correct ="no">Dinamax y Gigamax</choice>
+      <choice correct ="yes">Movimiento Z</choice>
+
+    </choices>
+  </question>
+
+   <question id = "16">
+    <wording>¿Qué Pokemon intercambió Ash en Sinnoh por el Buizel de Maya?</wording>
+    <choices>
+      <choice correct ="no">Turtwig</choice>
+      <choice correct ="yes">Aipom</choice>
+      <choice correct ="no">Butterfree</choice>
+      <choice correct ="no">Chimchar</choice>
+
+    </choices>
+  </question>
+
+  <question id = "17">
+    <wording>¿En qué lugar estuvo entrenando el Charizard de Ash?</wording>
+    <choices>
+      <choice correct ="no">En el Gimnasio de Isla Canela</choice>
+      <choice correct ="no">En la Madriguera del Dragón</choice>
+      <choice correct ="yes">En el Valle Charicífico</choice>
+      <choice correct ="no">En las Ruinas Sosiego</choice>
 
     </choices>
   </question>
 
 
-  
+   <question id = "18">
+    <wording>¿Qué habilidad evita que un Pokemon pierda PS al usar un movimiento que hace daño por retroceso?</wording>
+    <choices>
+      <choice correct ="no">Sequía</choice>
+      <choice correct ="yes">Cabeza Roca</choice>
+      <choice correct ="no">Roca Sólida</choice>
+      <choice correct ="no">Caparazón</choice>
 
+    </choices>
+  </question>
+
+ <question id = "19">
+    <wording>¿En qué país está basada la región de Kalos?</wording>
+    <choices>
+      <choice correct ="no">Inglaterra</choice>
+      <choice correct ="no">Canadá</choice>
+      <choice correct ="yes">Francia</choice>
+      <choice correct ="no">Brasil</choice>
+
+    </choices>
+  </question>
+
+ <question id = "20">
+    <wording>¿Cuál fue el primer Pokemon adelantado presentado en el anime?</wording>
+    <choices>
+      <choice correct ="no">Togepi</choice>
+      <choice correct ="yes">Ho-oh</choice>
+      <choice correct ="no">Blaziken</choice>
+      <choice correct ="no">Moltres</choice>
+
+    </choices>
+  </question>
+
+</test>
+
+  
