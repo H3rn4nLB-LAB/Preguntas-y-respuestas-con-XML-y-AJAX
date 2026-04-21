@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test SYSTEM "dtd_test.dtd">
+
+<test>
+
+  <question id = "1">
+    <wording>¿Cuál es el primer Pokemon en el orden de la Pokedex nacional?</wording>
+    <choices>
+      <choice correct ="yes">Bulbasaur</choice>
+      <choice correct ="no">Charmander</choice>
+      <choice correct ="no">Squirtle</choice>
+      <choice correct ="no">Pikachu</choice>
+
+    </choices>
+  </question>
+
+  <question id = "2">
+    <wording>¿Cuál es el único Pokemon de tipo fantasma puro de los siguientes Pokemon?</wording>
+    <choices>
+      <choice correct ="no">Gengar</choice>
+      <choice correct ="no">Mimikyu</choice>
+      <choice correct ="yes">Mismagius</choice>
+      <choice correct ="no">Froslass</choice>
+
+    </choices>
+  </question>
+
+  <question id = "3">
+    <wording>¿Qué Pokemon tiene el número 150 en la Pokedex nacional?</wording>
+    <choices>
+      <choice correct ="no">Mew</choice>
+      <choice correct ="yes">Mewtwo</choice>
+      <choice correct ="no">Slowbro</choice>
+      <choice correct ="no">Meowth</choice>
+
+    </choices>
+  </question>
+
+<question id = "4">
+    <wording>¿Cuál de los siguientes tipos es inmune a los ataques de tipo Dragón?</wording>
+    <choices>
+      <choice correct ="no">Dragón</choice>
+      <choice correct ="no">Fuego</choice>
+      <choice correct ="no">Siniestro</choice>
+      <choice correct ="yes">Hada</choice>
+
+    </choices>
+  </question>
+
+  <question id = "5">
+    <wording>¿Qué Pokemon de Ash ganó su primer combate en la liga de la meseta Añil en el anime?</wording>
+    <choices>
+      <choice correct ="no">Pikachu</choice>
+      <choice correct ="no">Charizard</choice>
+      <choice correct ="yes">Kingler</choice>
+      <choice correct ="no">Pidgeot</choice>
+
+    </choices>
+  </question>
+
+<question id = "6">
+    <wording>¿Qué Pokemon regalaban en un evento exclusivo de Japón para "Pokemon Rubí y Zafiro" tras el estreno de la película "Lucario y el misterio de Mew"? </wording>
+    <choices>
+      <choice correct ="yes">Regirock, Registeel y Regice</choice>
+      <choice correct ="no">Lucario</choice>
+      <choice correct ="no">Mew</choice>
+      <choice correct ="no">Lucario y Mew</choice>
+
+    </choices>
+  </question>
+
+<question id = "7">
+    <wording>¿Cómo se llama el Pokemon cuya guarida se encuentra en la isla de Ula-Ula?</wording>
+    <choices>
+      <choice correct ="no">Blacephalon</choice>
+      <choice correct ="yes">Tapu-Bulu</choice>
+      <choice correct ="no">Necrozma</choice>
+      <choice correct ="no">Solgaleo</choice>
+
+    </choices>
+  </question>
+
+<question id = "8">
+    <wording>¿Cúal de estos Pokemon puede usar el movimiento "Brecha Negra"?</wording>
+    <choices>
+      <choice correct ="no">Suicune</choice>
+      <choice correct ="yes">Darkrai</choice>
+      <choice correct ="no">Zarude</choice>
+      <choice correct ="no">Eternatus</choice>
+
+    </choices>
+  </question>
+
+<question id = "9">
+    <wording>¿Cuáles fueron los primeros Pokemon en aparecer en el anime?</wording>
+    <choices>
+      <choice correct ="no">Pikachu y Raichu</choice>
+      <choice correct ="no">Charizard, Blastoise y Venusaur</choice>
+      <choice correct ="no">Eevee</choice>
+      <choice correct ="yes">Gengar y Nidorino</choice>
+
+    </choices>
+  </question>
+
+  <question id = "10">
+    <wording>¿Cuáles son los tipos de la forma Alola de Marowak?</wording>
+    <choices>
+      <choice correct ="no">Tierra y Agua</choice>
+      <choice correct ="no">Planta y Tierra</choice>
+      <choice correct ="yes">Fuego y Fantasma</choice>
+      <choice correct ="no">Tierra y Roca</choice>
+
+    </choices>
+  </question>
+
+  <question id = "11">
+    <wording>¿Cuál fue la primera liga que Ash ganó en el anime?</wording>
+    <choices>
+      <choice correct ="no">Kalos</choice>
+      <choice correct ="yes">Alola</choice>
+      <choice correct ="no">Johto</choice>
+      <choice correct ="no">Sinnoh</choice>
+
+    </choices>
+  </question>
+
+ <question id = "12">
+    <wording>¿Qué objeto necesita Gligar para evolucionar a Gliscor?</wording>
+    <choices>
+      <choice correct ="no">Piedra Noche</choice>
+      <choice correct ="no">Electrizador</choice>
+      <choice correct ="no">Escama Dragón</choice>
+      <choice correct ="yes">Colmillo Agudo</choice>
+
+    </choices>
+  </question>
+
+  <question id = "13">
+    <wording>¿Qué Pokemon es conocido como "Pokemon Equilibrio"?</wording>
+    <choices>
+      <choice correct ="no">Xerneas</choice>
+      <choice correct ="yes">Zygarde</choice>
+      <choice correct ="no">Yveltal</choice>
+      <choice correct ="no">No existe</choice>
+
+    </choices>
+  </question>
+
+  <question id = "14">
+    <wording>¿?</wording>
+    <choices>
+      <choice correct ="yes">Bulbasaur</choice>
+      <choice correct ="no">Charmander</choice>
+      <choice correct ="no">Squirtle</choice>
+      <choice correct ="no">Pikachu</choice>
+
+    </choices>
+  </question>
+
+
+  
+
