@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: lonear-gradient(270deg, #ffcb05, #3b4cca, #ff0000);
+  background-size: 600% 600%;
+  color: white;
+  text_align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+select {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  margin: 15px;
+}
+
+#timer {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#pregunta {
+  background: rgba(0,0,0, 0.6):
+  padding: 20px;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  font-size: 1.5em;
+  box-shadow: 0px 0px 15px black;
+}
+
+#respuestas {
+  margin-top: 20px;
+}
+
+#respuestas button {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* Hover respuestas */
+#respuestas button:hover {
+    transform: scale(1.05);
+    background: #ffcb05;
+    color: black;
+}
+
+/* Botón siguiente */
+button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: none;
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover siguiente */
+button:hover {
+    background: #cc0000;
+    transform: scale(1.1);
+}
+
+/* Resultado final */
+#resultado {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #pregunta {
+        width: 90%;
+    }
+
+    #respuestas button {
+        width: 80%;
+    }
+}
