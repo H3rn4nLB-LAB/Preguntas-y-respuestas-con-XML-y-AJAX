@@ -26,10 +26,105 @@
   <p id ="resultado"></p>
 
   <script>
+  let xmlDOC;
+  let preguntas;
+  let num = 0;
+  let puntos = 0;
+  let tiempo = 0;
+  let respondida = false;
+
+  setInterval(() => {
+    tiempo++;
+    document.getElementById("timer").innerText = "Tiempo: " + tiempo;
+  }, 1000);
+
+  function cargarXML(){
+       const archivo = document.getElementById("idioma").value;
+       const xhhtp = new XMLHttpRequest();
+    
+  xhttp.onload = function() {
+        xmlDoc = this.responseXML;
+        preguntas = xmlDoc.getElementsByTagName("question");
+        num = 0;
+        puntos = 0;
+        tiempo = 0;
+        mostrarPregunta();
+    }
+
+    xhttp.open("GET", archivo);
+    xhttp.send();
+  }
+
+  function mostrarPreguta(){
+    respondida = false;
+
+    let p = preguntas[num];
+
+    let texto = p.getElementByTagName("wording")[0].textContent;
+    document.getElementById("pregunta").innerText = texto;
+
+    let choices = p.getElementsByTagName("choice");
+    let html = "";
+
+    for (let i = 0; i <choices.length; i++){
+        let respuesta = choices[i].textContent;
+        let correcta = choices[i].getAttribute("correct");
+
+        html += `<button onclick="comprobar(this, '${correcta}')">${respuesta}</button>`;
+    }
+
+    document.getElementById("respuestas").innerHTML = html;
+}
 
 
+function comprobar(boton, correcta) {
+    if (respondida) return;
+
+    respondida = true;
+
+    let botones = document.querySelectorAll("#respuestas button");
+
+    botones.forEach(btn => {
+        btn.disabled = true;
+    });
+
+    if (correcta === "yes") {
+        boton.style.background = "green";
+        puntos++;
+    } else {
+        boton.style.background = "red";
+
+
+        botones.forEach(btn => {
+            if (btn.getAttribute("onclick").includes("yes")) {
+                btn.style.background = "green";
+            }
+        });
+    }
+}
+
+
+function siguiente() {
+    num++;
+
+    if (num < preguntas.length) {
+        mostrarPregunta();
+    } else {
+        document.getElementById("pregunta").innerText = "🏁 Fin del quiz";
+        document.getElementById("respuestas").innerHTML = "";
+        document.getElementById("resultado").innerText =
+            Puntuación: " + puntos + " / " + preguntas.length;
+    }
+}
+
+
+document.getElementById("idioma").addEventListener("change", cargarXML);
+
+
+cargarXML();
 
     
   </script>
     
   </body>
+</html>
