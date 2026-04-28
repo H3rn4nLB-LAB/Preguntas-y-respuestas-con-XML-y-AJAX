@@ -1,16 +1,23 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: lonear-gradient(270deg, #ffcb05, #3b4cca, #ff0000);
+  background: linear-gradient(270deg, #ffcb05, #3b4cca, #ff0000);
   background-size: 600% 600%;
   color: white;
-  text_align: center;
+  text-align: center;
+  animation: moviendoFondo 10s ease infinite;
 }
 
 h1 {
   font-size: 3em;
   margin-top: 20px;
   text-shadow: 2px 2px 5px black;
+}
+
+@keyframes moviendoFondo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 select {
@@ -27,7 +34,7 @@ select {
 }
 
 #pregunta {
-  background: rgba(0,0,0, 0.6):
+  background: rgba(0,0,0, 0.6);
   padding: 20px;
   border-radius: 15px;
   width: 60%;
@@ -54,14 +61,13 @@ select {
     transition: all 0.3s ease;
 }
 
-/* Hover respuestas */
 #respuestas button:hover {
     transform: scale(1.05);
     background: #ffcb05;
     color: black;
 }
 
-/* Botón siguiente */
+
 button {
     padding: 12px 20px;
     margin-top: 20px;
@@ -74,25 +80,21 @@ button {
     transition: 0.3s;
 }
 
-/* Hover siguiente */
 button:hover {
     background: #cc0000;
     transform: scale(1.1);
 }
 
-/* Resultado final */
 #resultado {
     font-size: 1.5em;
     margin-top: 20px;
     font-weight: bold;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     #pregunta {
         width: 90%;
     }
-
     #respuestas button {
         width: 80%;
     }
