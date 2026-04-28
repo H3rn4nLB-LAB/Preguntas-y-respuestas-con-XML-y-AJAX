@@ -11,8 +11,8 @@
   <h1>QUIZ POKEMON</h1>
 
   <select id="idioma">
-      <option value="preguntas.xnml">Español</option>
-      <option value="questions.xnml">English</option>
+      <option value="preguntas.xml">Español</option>
+      <option value="questions.xml">English</option>
   </select>
 
   <p id="timer"> Tiempo: 0</p>
@@ -26,7 +26,7 @@
   <p id ="resultado"></p>
 
   <script>
-  let xmlDOC;
+  let xmlDoc;
   let preguntas;
   let num = 0;
   let puntos = 0;
@@ -40,7 +40,7 @@
 
   function cargarXML(){
        const archivo = document.getElementById("idioma").value;
-       const xhhtp = new XMLHttpRequest();
+       const xhttp = new XMLHttpRequest();
     
   xhttp.onload = function() {
         xmlDoc = this.responseXML;
@@ -55,12 +55,12 @@
     xhttp.send();
   }
 
-  function mostrarPreguta(){
+  function mostrarPregunta(){
     respondida = false;
 
     let p = preguntas[num];
 
-    let texto = p.getElementByTagName("wording")[0].textContent;
+    let texto = p.getElementsByTagName("wording")[0].textContent;
     document.getElementById("pregunta").innerText = texto;
 
     let choices = p.getElementsByTagName("choice");
